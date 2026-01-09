@@ -47,7 +47,7 @@ jobs:
         uses: convictional/trigger-workflow-and-wait@v1.6.5
         if: env.NEED_UPDATE == 'true' && inputs.trigger_DoLModLoaderBuild
         with:
-          owner: DoL-Lyra
+          owner: MinamiHashiRun0
           repo: DoLModLoaderBuild
           ref: master
           workflow_file_name: Update-Submodules.yaml
@@ -57,7 +57,7 @@ jobs:
         uses: convictional/trigger-workflow-and-wait@v1.6.5
         if: env.NEED_UPDATE == 'true' && inputs.trigger_DoLModLoaderBuild
         with:
-          owner: DoL-Lyra
+          owner: MinamiHashiRun0
           repo: DoLModLoaderBuild
           ref: master
           workflow_file_name: Build-Html-Package.yml
