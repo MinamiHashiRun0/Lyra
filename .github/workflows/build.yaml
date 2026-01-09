@@ -26,7 +26,7 @@ jobs:
       - name: Download game files (zip)
         uses: robinraju/release-downloader@v1.12
         with:
-          repository: "DoL-Lyra/DoLModLoaderBuild"
+          repository: "MinamiHashiRun0/DoLModLoaderBuild"
           latest: true
           fileName: "DoL-ModLoader-*.zip"
 
